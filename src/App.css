@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Carousel{
+  width: 60%;
+  height: 700px;
+  background-color: aqua;
+}
+
+.carousel-inner{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-inner .left{
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0,0,0.6);
+  display: grid;
+  color: white;
+  place-content: center;
+  cursor: pointer;
+}
+
+.carousel-inner .centre{
+  flex: 90%;
+  height: 100%;
+  place-items: center;
+  display: grid;
+  font-size: 50px;
+ color: black;
+}
+
+.carousel-inner .right{
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: grid;
+  place-content: center;
+  color: white;
+  cursor: pointer;
+}
+h2{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
